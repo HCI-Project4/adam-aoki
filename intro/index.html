@@ -1,15 +1,46 @@
 <!DOCTYPE html>
-
 <html>
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+        $(document).ready(function(){
+          // Add smooth scrolling to all links
+          $("#down").on('click', function(event) {
+
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+              // Prevent default anchor click behavior
+              event.preventDefault();
+
+              // Store hash
+              var hash = this.hash;
+
+              // Using jQuery's animate() method to add smooth page scroll
+              // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+              $('html, body').animate({
+                scrollTop: $(hash).offset().top
+              }, 800, function(){
+
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              });
+            } // End if
+          });
+        });
+        </script>
     </head>
     
     <body>
         <div class="main">
-            <div class="logo">
+            <video id="landing-video" preload="auto" autoplay muted loop id="myVideo">
+                <source src="blurred_tree.mp4" type="video/mp4">
+                <source src="blurred_tree.webm" type="video/webm">
+            </video>
+            
+            <div class="logo-main">
                 <div class="rec">
                     <div class="adam">ADAM & AOKI</div>
                 </div>
@@ -21,9 +52,12 @@
             <div class="slogan2">
                 "Where Functionality Meets Fashion..."
             </div>
+            
+            <a id="down" href="#para">
+                <div class="arrow"></div>
+            </a>
         </div>
-        
-        <p>
+        <p id="para">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et tortor at risus viverra adipiscing at. Faucibus in ornare quam viverra orci sagittis eu. Morbi tristique senectus et netus et malesuada fames ac. Vel pretium lectus quam id leo in vitae turpis. Congue nisi vitae suscipit tellus mauris a diam maecenas. Ut morbi tincidunt augue interdum velit euismod in pellentesque massa. Nisl vel pretium lectus quam id leo. Praesent tristique magna sit amet purus gravida. Phasellus egestas tellus rutrum tellus pellentesque. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus.
 
         Urna porttitor rhoncus dolor purus non enim praesent elementum facilisis. Elementum sagittis vitae et leo. Ultricies tristique nulla aliquet enim tortor at auctor. Sed felis eget velit aliquet sagittis id consectetur. Arcu vitae elementum curabitur vitae nunc. Faucibus interdum posuere lorem ipsum dolor. Commodo elit at imperdiet dui accumsan sit amet nulla facilisi. Id consectetur purus ut faucibus pulvinar elementum. Massa vitae tortor condimentum lacinia quis vel eros donec. Sed viverra tellus in hac habitasse platea. Aliquet nec ullamcorper sit amet risus. Facilisi cras fermentum odio eu. Faucibus a pellentesque sit amet porttitor. Tortor condimentum lacinia quis vel eros donec ac. Ut tristique et egestas quis. Aliquet sagittis id consectetur purus ut faucibus pulvinar elementum. Eleifend mi in nulla posuere sollicitudin. Varius sit amet mattis vulputate enim nulla aliquet. Odio pellentesque diam volutpat commodo sed egestas egestas.
@@ -35,11 +69,12 @@
         Urna porttitor rhoncus dolor purus non enim praesent elementum facilisis. Elementum sagittis vitae et leo. Ultricies tristique nulla aliquet enim tortor at auctor. Sed felis eget velit aliquet sagittis id consectetur. Arcu vitae elementum curabitur vitae nunc. Faucibus interdum posuere lorem ipsum dolor. Commodo elit at imperdiet dui accumsan sit amet nulla facilisi. Id consectetur purus ut faucibus pulvinar elementum. Massa vitae tortor condimentum lacinia quis vel eros donec. Sed viverra tellus in hac habitasse platea. Aliquet nec ullamcorper sit amet risus. Facilisi cras fermentum odio eu. Faucibus a pellentesque sit amet porttitor. Tortor condimentum lacinia quis vel eros donec ac. Ut tristique et egestas quis. Aliquet sagittis id consectetur purus ut faucibus pulvinar elementum. Eleifend mi in nulla posuere sollicitudin. Varius sit amet mattis vulputate enim nulla aliquet. Odio pellentesque diam volutpat commodo sed egestas
         Faucibus interdum posuere lorem ipsum dolor. Commodo elit at imperdiet dui accumsan sit amet nulla facilisi. Id consectetur purus ut faucibus pulvinar elementum. Massa vitae tortor condimentum lacinia quis vel eros donec. Sed viverra tellus in hac habitasse platea. Aliquet nec ullamcorper sit amet risus. Facilisi cras fermentum odio eu. Faucibus a pellentesque sit amet porttitor. Tortor condimentum lacinia quis vel eros donec ac. Ut tristique et egestas quis. Aliquet sagittis id consectetur purus ut faucibus pulvinar elementum. Eleifend mi in nulla posuere sollicitudin. Varius sit amet mattis vulputate enim nulla aliquet. Odio pellentesque diam volutpat commodo sed egestas
         Faucibus interdum posuere lorem ipsum dolor. Commodo elit at imperdiet dui accumsan sit amet nulla facilisi. Id consectetur purus ut faucibus pulvinar elementum. Massa vitae tortor condimentum lacinia quis vel eros donec. Sed viverra tellus in hac habitasse platea. Aliquet nec ullamcorper sit amet risus. Facilisi cras fermentum odio eu. Faucibus a pellentesque sit amet porttitor. Tortor condimentum lacinia quis vel eros donec ac. Ut tristique et egestas quis. Aliquet sagittis id consectetur purus ut faucibus pulvinar elementum. Eleifend mi in nulla posuere sollicitudin. Varius sit amet mattis vulputate enim nulla aliquet. Odio pellentesque diam volutpat commodo sed egestas
+        Urna porttitor rhoncus dolor purus non enim praesent elementum facilisis. Elementum sagittis vitae et leo. Ultricies tristique nulla aliquet enim tortor at auctor. Sed felis eget velit aliquet sagittis id consectetur. Arcu vitae elementum curabitur vitae nunc. Faucibus interdum posuere lorem ipsum dolor. Commodo elit at imperdiet dui accumsan sit amet nulla facilisi. Id consectetur purus ut faucibus pulvinar elementum. Massa vitae tortor condimentum lacinia quis vel eros donec. Sed viverra tellus in hac habitasse platea. Aliquet nec ullamcorper sit amet risus. Facilisi cras fermentum odio eu. Faucibus a pellentesque sit amet porttitor. Tortor condimentum lacinia quis vel eros donec ac. Ut tristique et egestas quis. Aliquet sagittis id consectetur purus ut faucibus pulvinar elementum. Eleifend mi in nulla posuere sollicitudin. Varius sit amet mattis vulputate enim nulla aliquet. Odio pellentesque diam volutpat commodo sed egestas egestas.
+        Urna porttitor rhoncus dolor purus non enim praesent elementum facilisis. Elementum sagittis vitae et leo. Ultricies tristique nulla aliquet enim tortor at auctor. Sed felis eget velit aliquet sagittis id consectetur. Arcu vitae elementum curabitur vitae nunc. Faucibus interdum posuere lorem ipsum dolor. Commodo elit at imperdiet dui accumsan sit amet nulla facilisi. Id consectetur purus ut faucibus pulvinar elementum. Massa vitae tortor condimentum lacinia quis vel eros donec. Sed viverra tellus in hac habitasse platea. Aliquet nec ullamcorper sit amet risus. Facilisi cras fermentum odio eu. Faucibus a pellentesque sit amet porttitor. Tortor condimentum lacinia quis vel eros donec ac. Ut tristique et egestas quis. Aliquet sagittis id consectetur purus ut faucibus pulvinar elementum. Eleifend mi in nulla posuere sollicitudin. Varius sit amet mattis vulputate enim nulla aliquet. Odio pellentesque diam volutpat commodo sed egestas egestas.
+        Urna porttitor rhoncus dolor purus non enim praesent elementum facilisis. Elementum sagittis vitae et leo. Ultricies tristique nulla aliquet enim tortor at auctor. Sed felis eget velit aliquet sagittis id consectetur. Arcu vitae elementum curabitur vitae nunc. Faucibus interdum posuere lorem ipsum dolor. Commodo elit at imperdiet dui accumsan sit amet nulla facilisi. Id consectetur purus ut faucibus pulvinar elementum. Massa vitae tortor condimentum lacinia quis vel eros donec. Sed viverra tellus in hac habitasse platea. Aliquet nec ullamcorper sit amet risus. Facilisi cras fermentum odio eu. Faucibus a pellentesque sit amet porttitor. Tortor condimentum lacinia quis vel eros donec ac. Ut tristique et egestas quis. Aliquet sagittis id consectetur purus ut faucibus pulvinar elementum. Eleifend mi in nulla posuere sollicitudin. Varius sit amet mattis vulputate enim nulla aliquet. Odio pellentesque diam volutpat commodo sed egestas egestas.
         </p>
         
-        
-        
-        <div class="container gray pullRightLeft">
+        <nav class="container gray pullRightLeft">
             <a class="menu-button" id="logo" href="website.html">
                 <div class="rec2">
                     <div class="adam2">ADAM & AOKI</div>
@@ -51,6 +86,6 @@
             <a class="menu-button">CONTACT</a>
             <a class="menu-button" id="buy" href="https://www.shopify.com/">Shop</a> 
             <!-- if you don't add "https:// /" it will look for a link in your folders -->
-        </div>
+        </nav>
     </body>
 </html>
