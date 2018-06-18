@@ -6,28 +6,32 @@ body, html {
 	background-image: url("https://4.bp.blogspot.com/-yWJ1ihU_S4U/UW_9BLkLNsI/AAAAAAAAFEk/gzgLjxCUSEU/s1600/sunshine.jpg");
 	height: 75vh;
 	padding: 20px;
+	color: white;
 }
 
 .section-head {
 	font-family: "Lato", "Helvetica", sans-serif;
 	text-align: center;
 	font-size: 50px;
-	color: white;
-	padding: 0px;
+}
+
+.sub-head {
+	font-family: "Lato", "Helvetica", sans-serif;
+	font-size: 30px;
 }
 
 #brand-section {
 	background-image: url("https://images.unsplash.com/photo-1523972426550-23b522ad4f9f");
-	height: 500px;
-	padding: 1px;
+	padding-top: 1px;
 	padding-left: 20vw;
 	padding-right: 20vw;
+	padding-bottom: 50px;
+	color: white;
 }
 
 #story-text {
 	padding: 50px;
 	padding-top: 1px;
 	width: 50vw;
-	color: white;
 	background-color: gray;
 }
