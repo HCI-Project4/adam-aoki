@@ -1,0 +1,31 @@
+body, html {
+	margin: 0;
+}
+
+#embrace-section {
+	background-image: url("https://4.bp.blogspot.com/-yWJ1ihU_S4U/UW_9BLkLNsI/AAAAAAAAFEk/gzgLjxCUSEU/s1600/sunshine.jpg");
+	height: 500px;
+	padding: 20px;
+}
+
+.section-head {
+	font-family: "Lato", "Helvetica", sans-serif;
+	text-align: center;
+	font-size: 50px;
+	color: white;
+}
+
+#brand-story {
+	background-image: url("https://images.unsplash.com/photo-1523972426550-23b522ad4f9f");
+	align-items: center;
+	height: 50vh;
+}
+
+#story-text {
+	padding: 20px;
+	margin: 50px;
+	
+	color: white;
+	
+	background-color: black;
+}
