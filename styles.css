@@ -4,7 +4,7 @@ body, html {
 
 #embrace-section {
 	background-image: url("https://4.bp.blogspot.com/-yWJ1ihU_S4U/UW_9BLkLNsI/AAAAAAAAFEk/gzgLjxCUSEU/s1600/sunshine.jpg");
-	height: 500px;
+	height: 75vh;
 	padding: 20px;
 }
 
@@ -13,19 +13,21 @@ body, html {
 	text-align: center;
 	font-size: 50px;
 	color: white;
+	padding: 0px;
 }
 
-#brand-story {
+#brand-section {
 	background-image: url("https://images.unsplash.com/photo-1523972426550-23b522ad4f9f");
-	align-items: center;
-	height: 50vh;
+	height: 500px;
+	padding: 1px;
+	padding-left: 20vw;
+	padding-right: 20vw;
 }
 
 #story-text {
-	padding: 20px;
-	margin: 50px;
-	
+	padding: 50px;
+	padding-top: 1px;
+	width: 50vw;
 	color: white;
-	
-	background-color: black;
+	background-color: gray;
 }
