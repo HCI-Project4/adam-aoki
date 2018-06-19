@@ -1,3 +1,4 @@
+/* This is Nanotech part*/
 #AlexPart1{
 	color: white;
 	background-image: url("ImagesA/backgroundTest.jpg");
@@ -13,38 +14,45 @@
     display: flex;
 }
 
-/* Create two equal columns that sits next to each other */
 .column {
     flex: 50%;
     padding-top: 100px;
     padding-bottom: 130px;
-    padding-right: 70px;
-    padding-left: 70px;
-}
-
-.column2 {
-    flex: 50%;
-    padding: 50px;
+    padding-right: 80px;
+    padding-left: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
 img {
   border-radius: 50%;
   height: 170px;
   width: 170px;
+  border: 1px solid grey;
 }
 
 #AlexText1{
 	padding: 20px;
+	border: 1px solid white;
 }
 
 #AlexText2{
 	padding: 20px;
+	border: 1px solid white;
 }
 
 #AlexHeader1{
 	background-color: grey;
 	font-family: "Lato", "Helvetica", sans-serif;
 }
+
+#columnSun{
+	text-align: right;
+}
+
+
+
+/* This is Review Part*/
 
 #AlexTwitter{
 	text-align: right;
@@ -58,6 +66,11 @@ img {
 	font-size: 1.1em;
 	font-family: "Times New Roman";
 	text-align: justify;
+}
+
+.column2 {
+    flex: 50%;
+    padding: 50px;
 }
 
 #AlexHeader2{
