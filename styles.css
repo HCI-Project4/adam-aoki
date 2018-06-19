@@ -24,7 +24,7 @@
     margin-right: 80px;
 }
 
-img {
+#nanoImg{
   border-radius: 50%;
   height: 170px;
   width: 170px;
@@ -33,17 +33,12 @@ img {
 
 #AlexText1{
 	padding: 20px;
-	border: 1px solid white;
-}
-
-#AlexText2{
-	padding: 20px;
-	border: 1px solid white;
+	border-radius: 5px;
 }
 
 #AlexHeader1{
 	background-color: grey;
-	font-family: "Lato", "Helvetica", sans-serif;
+	font-family: "Helvetica", sans-serif;
 }
 
 #columnSun{
@@ -68,6 +63,13 @@ img {
 	text-align: justify;
 }
 
+#revImg{
+  border-radius: 50%;
+  height: 170px;
+  width: 170px;
+  border: 1px solid lightgrey;
+}
+
 .column2 {
     flex: 50%;
     padding: 50px;
@@ -76,4 +78,9 @@ img {
 #AlexHeader2{
 	background-color: lightblue;
 	font-family: "Lato", "Helvetica", sans-serif;
+}
+
+#AlexText2{
+	padding: 5px;
+	border-radius: 5px;
 }
