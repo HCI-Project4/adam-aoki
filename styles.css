@@ -1,6 +1,6 @@
 #AlexPart1{
 	color: white;
-	background-image: url("backgroundTest.jpg");
+	background-image: url("ImagesA/backgroundTest.jpg");
 	background-size: cover;
 
 	font-size: 1.1em;
@@ -52,7 +52,7 @@ img {
 
 #AlexPart2{
 	box-sizing: border-box;
-	background-image: url("ReviewBG3.jpg");
+	background-image: url("ImagesA/ReviewBG3.jpg");
 
 	color:black;
 	font-size: 1.1em;
