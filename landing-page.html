@@ -1,18 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <title>Adam&amp;Aoki | Where Functionality Meets Fashion</title>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="styles.css"/>
   </head>
   <body>
     <h1>Intro</h1>
 	<hr/>
 	<h1>Menu</h1>
 	<hr/>
-	<h1>Nanotech</h1>
-	<hr/>
-	
+
+	<!-- Alex Nanotech -->
+	<div id="AlexPart1">
+		<h1 id="AlexHeader1">Nanotech</h1>			<!--Nanotech is the part of the website that describes the science behind the Adam&Aoki clothing.-->
+		<div class="row">			<!--class row is used to put different parts in columns next to each other-->
+	  		<div class="column">			<!--columns appear next to each other and take certain % of screen space-->
+	  			<img class="nanoImg" src="ImagesA/fabricA2.jpg" alt="Avatar">
+	    		<p class="AlexText1" style="background-color: grey;">	Imagine clothes that never get wet. Or perhaps a suit that can keep you cool in burning hot temperatures. I bet the latter sounds great right now, in the middle of this scorching summer!
+				<br>
+				<br>
+				No, these aren’t fashion ideas lifted from the latest futuristic blockbuster hitting movie theaters. Materials scientists are melding nano design and fashion, pushing the boundaries of what our clothing can withstand and do.</p>
+	  		</div>
+
+	  		<div class="column" id="columnSun">
+	  			<img class="nanoImg" src="imagesA/wowCool.gif" alt="Avatar">
+	    		<p class="AlexText1" style="background-color: grey;">A white cotton t-shirt has a UPF of about 5, whereas most UV protection clothing boasts a UPF around 50.
+	    		<br>
+	    		<br>>
+				"UPF 50 means that only 1/50th, or 2%, of UV rays can penetrate through the fabric to reach the skin," Arthur explained. (That's comparable to sunscreen with SPF 50.)</p>
+	  		</div>
+		</div>
+	</div>
+	<hr/>	
 	<!-- brought to you by Jackson -->
 	
 	<div id="embrace-section">
@@ -28,10 +49,85 @@
 			<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
 		</div>
 	</div>
-	
+<!-- Alex Reviews -->
+	<div id="AlexPart2">
+		<h1 id="AlexHeader2">Reviews</h1>			<!--Reviews is the part of the website that shows the reviews of customers and possibly other personas. Also it has a Twitter feed embedded.-->
+		<div class="row">
+			<div id="column2Left">
+				<div class="w3-content w3-display-container" id="slideRev">			<!--Small slideshow inspired by one I have seen at w3schools.-->
+					<div class="mySlides">
+  						<img class="revImg" src="ImagesA/rev4.jpeg" alt="Avatar">
+						<p class="AlexText2" style="background-color:white;">Becoming a member of this community was a great decision. I feel much safer for my children when they wear Adam&Aoki t-shirts.</p>
+					</div>
+					<div class="mySlides">
+  						<img class="revImg" src="ImagesA/rev5.jpeg" alt="Avatar">
+						<p class="AlexText2" style="background-color:white;">I love my son and he loves to play tennis. Getting sun burns means he will not be able to perform his best at during the tennis mathches. Adam&Aoki t-shirt helped us to resolve this issue and that makes me happy.</p>
+					</div>
+  					<div class="mySlides">
+  						<img class="revImg" src="ImagesA/rev6.jpg" alt="Avatar">
+						<p class="AlexText2" style="background-color:white;">I am happy that my daughter showed me this amazing community. Here I discovered the importance of modern clothing and how useful it could be. I also love my grandchildren.</p>
+					</div>
+    				<div class="mySlides">
+  						<img class="revImg" src="ImagesA/rev3.jpg" alt="Avatar">
+						<p class="AlexText2" style="background-color:white;">I am an investor and this is the product I want to invest my money in.
+						<br><br>
+						Contact email: investor@company.nl
+						<br><br>
+						Regards,
+						<br>
+						The Investor</p>
+					</div>
+
+ 					 <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  					<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+				</div>
+
+				<script>
+					var slideIndex = 1;
+					showDivs(slideIndex);
+
+					function plusDivs(n) {
+  						showDivs(slideIndex += n);
+					}
+
+					function showDivs(n) {
+  						var i;
+  						var x = document.getElementsByClassName("mySlides");
+  						if (n > x.length) {slideIndex = 1}    
+  						if (n < 1) {slideIndex = x.length}
+  						for (i = 0; i < x.length; i++) {
+    						x[i].style.display = "none";  
+  						}
+							x[slideIndex-1].style.display = "block";  
+					}
+				</script>
+			</div>
+			<div id="column2Right">
+				<a class="twitter-timeline" href="https://twitter.com/NatGeoPhotos?ref_src=twsrc%5Etfw" data-width="400" data-height="450">Tweets by NatGeoPhotos</a> <script async src="https://platform.twitter.com/widgets.js"></script>			<!--Twitter feed (currently set to show the Twitter of NatGeoPhotos just as an example).-->
+			</div>
+		</div>
+	</div>
+	<button onclick="topFunction()" id="myBtn" title="Go to top"><img id="arrowUp" src="ImagesA/arrowUp.ico"></button>			<!--A button that takes users back to top of the screen. Inspired by buttons seen at w3schools.-->
+	<script>
+		// When the user scrolls down 1000px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+		    if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+		        document.getElementById("myBtn").style.display = "block";
+		    } else {
+		        document.getElementById("myBtn").style.display = "none";
+		    }
+		}
+
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+		    document.body.scrollTop = 0;
+		    document.documentElement.scrollTop = 0;
+		}
+	</script>
 	<hr/>
-	<h1>Reviews</h1>
-	<hr/>
+
 	<h1>Footer</h1>
 	<hr/>
   </body>
