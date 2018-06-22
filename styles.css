@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Raleway';
+/*@import 'https://fonts.googleapis.com/css?family=Raleway';*/
 
 /*This makes sure the footer and header fill out the whole top and bottom of screen*/
 html, body
@@ -15,7 +15,7 @@ html, body
     background: transparent no-repeat center center absolute;
     height: 100vh;
     color: #ffffff;
-    font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: "Halvetica", 'Raleway', sans-serif;
     /*
     background-image: url("tshirt.png");
     background-size: cover;
@@ -32,54 +32,58 @@ html, body
     background: transparent no-repeat 0 0;
     object-fit: cover;
     z-index: -1;
+    filter: blur(2px)
 }
 
 .logo-main {
     position: relative;
     vertical-align: middle;
     text-align: center;
-    height: 40px;
+    height: 42px;
     width: 300px;
     display: table;
-    margin: 0 auto;
+    margin: auto;
     top: 33vh;
 }
 
 .adam {
     /* ADAM & AOKI: */
-    font-family: Avenir;
-    font-weight: 500;
+    font-family: "Halvetica", 'Raleway', sans-serif;
+    font-weight: 600;
     font-size: 32px;
-    color: #111;
+    color: #111111;
     text-align: center;
+    height: 40px;
 }
 
 .rec {
     /* Rectangle 2: */
     border: 2px solid #111;
     border-radius: 100px;
-    height: 42px;
+    height: 50px;
+    box-shadow: 
 }
 
 .slogan1 {
     position: relative;
     top: 38vh;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: "Halvetica", 'Raleway', sans-serif;
     font-size: 52px;
-    font-weight: 450;
-    color: #111;
+    font-weight: 600;
+    color: #111111;
     display: table;
     margin: 0 auto;
 }
 
 .slogan2 {
     position: relative;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: "Halvetica", 'Raleway', sans-serif;
     font-size: 32px;
     color: #111;
     top: 43vh;
     display: table;
     margin: 0 auto;
+    font-weight: 560;
 }
 
 .arrow {
@@ -89,7 +93,7 @@ html, body
     margin-left:-20px;
     width: 35px;
     height: 35px;
-    background-image: url("down.png");
+    background-image: url("down3.png");
     background-size: contain;
 }
 
@@ -100,7 +104,7 @@ html, body
 
 footer
 {
-    font-family: Raleway;
+    font-family: "Halvetica", 'Raleway', sans-serif;
     margin: 0 auto;
     text-align: center;
     background: #f5f5f5; /*gray*/
@@ -128,7 +132,7 @@ div.container
     top: 0;
     height: 5%;
     width: 100%;
-    font-family: Raleway;
+    font-family: "Halvetica", 'Raleway', sans-serif;
     margin: 0 auto;
     padding: 0px 0px -10px;
     text-align: center;
@@ -140,7 +144,7 @@ div.container
 div.container a.not-button{
     margin-top: 1em;
     font-size: 20px;
-    font-family: Raleway;
+    font-family: "Halvetica", 'Raleway', sans-serif;
     text-decoration: none;
 
 }
@@ -172,7 +176,7 @@ div.container a.menu-button
 {
     text-decoration: none;
     font-size: 20px;
-    font-family: Raleway;
+    font-family: "Halvetica", 'Raleway', sans-serif;
     margin: 0px 5px; 
     padding: 2px 30px;
     position: relative;
@@ -275,7 +279,7 @@ div.pullRightLeft a.menu-button:hover:before
 	background-size: cover;
 
 	font-size: 1.1em;
-	font-family: "Times New Roman";
+	font-family: "Halvetica", 'Raleway', sans-serif;
 	text-align: justify;
 
 	box-sizing: border-box;
@@ -320,7 +324,7 @@ div.pullRightLeft a.menu-button:hover:before
 
 	color:black;
 	font-size: 1.2em;
-	font-family: "Times New Roman";
+	font-family: "Ubuntu", sans-serif;
 	text-align: justify;
 
 	box-shadow: 0 -4px 50px 0px black;
@@ -351,7 +355,7 @@ div.pullRightLeft a.menu-button:hover:before
 
 #AlexHeader2{
 	background-color: lightblue;
-	font-family: "Lato", "Helvetica", sans-serif;
+	font-family: "Halvetica", 'Raleway', sans-serif;
 	margin:0px;
 }
 
@@ -394,7 +398,7 @@ div.pullRightLeft a.menu-button:hover:before
 
 #embrace-section {
 	background-image: url("embrace.jpg");
-    background-size: cover; 
+    background-size: cover;
 	height: 75vh;
 	padding: 20px;
 	color: #111;
@@ -402,28 +406,32 @@ div.pullRightLeft a.menu-button:hover:before
 }
 
 .section-head {
-	font-family: "Lato", "Helvetica", sans-serif;
+	font-family: "Halvetica", 'Raleway', sans-serif;
 	text-align: center;
 	font-size: 50px;
+    font-weight: 600;
 }
 
 .sub-head {
-	font-family: "Lato", "Helvetica", sans-serif;
+	font-family: "Halvetica", 'Raleway', sans-serif;
 	font-size: 30px;
 }
 
 #brand-section {
-	background-image: url("https://images.unsplash.com/photo-1523972426550-23b522ad4f9f");
+	background-image: url("cloth-back.jpg");
+    background-size: cover;
 	padding-top: 50px;
 	padding-left: 20vw;
 	padding-right: 20vw;
 	padding-bottom: 50px;
-	color: white;
+	color: whitesmoke;
 	box-shadow: 0 -4px 50px 0px black;
 }
 
 #story-text {
 	padding: 50px;
 	padding-top: 1px;
-	background-color: gray;
+	background-color: #222;
+    box-shadow: 0 -4px 50px 0px black;
+    border-radius: 10px;
 }
