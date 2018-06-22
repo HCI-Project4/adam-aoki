@@ -312,6 +312,7 @@ div.pullRightLeft a.menu-button:hover:before
 #AlexHeader1{
 	background-color: grey;
 	font-family: "Helvetica", sans-serif;
+	margin-top: 0px;
 }
 
 #columnSun{
