@@ -282,6 +282,7 @@ div.pullRightLeft a.menu-button:hover:before
 	text-align: justify;
 
 	box-sizing: border-box;
+	box-shadow: 0 -4px 50px 0px black;
 }
 .row2 {
     display: flex;
@@ -330,6 +331,8 @@ div.pullRightLeft a.menu-button:hover:before
 	font-size: 1.2em;
 	font-family: "Times New Roman";
 	text-align: justify;
+
+	box-shadow: 0 -4px 50px 0px black;
 }
 
 .revImg{
@@ -403,6 +406,7 @@ div.pullRightLeft a.menu-button:hover:before
 	height: 75vh;
 	padding: 20px;
 	color: white;
+	box-shadow: 0 -4px 50px 0px black;
 }
 
 .section-head {
@@ -423,6 +427,7 @@ div.pullRightLeft a.menu-button:hover:before
 	padding-right: 20vw;
 	padding-bottom: 50px;
 	color: white;
+	box-shadow: 0 -4px 50px 0px black;
 }
 
 #story-text {
