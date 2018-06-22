@@ -420,6 +420,7 @@ div.pullRightLeft a.menu-button:hover:before
 #brand-section {
 	background-image: url("cloth-back.jpg");
     background-size: cover;
+    
 	padding-top: 50px;
 	padding-left: 20vw;
 	padding-right: 20vw;
@@ -432,6 +433,6 @@ div.pullRightLeft a.menu-button:hover:before
 	padding: 50px;
 	padding-top: 1px;
 	background-color: #222;
-    box-shadow: 0 -4px 50px 0px black;
+    box-shadow: 8px 8px 50px 8px black;
     border-radius: 10px;
 }
