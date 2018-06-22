@@ -393,10 +393,11 @@ div.pullRightLeft a.menu-button:hover:before
 }
 
 #embrace-section {
-	background-image: url("https://4.bp.blogspot.com/-yWJ1ihU_S4U/UW_9BLkLNsI/AAAAAAAAFEk/gzgLjxCUSEU/s1600/sunshine.jpg");
+	background-image: url("embrace.jpg");
+    background-size: cover; 
 	height: 75vh;
 	padding: 20px;
-	color: white;
+	color: #111;
 	box-shadow: 0 -4px 50px 0px black;
 }
 
