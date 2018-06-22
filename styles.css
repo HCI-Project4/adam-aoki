@@ -7,6 +7,97 @@ html, body
     padding: 0;
 }
 
+/*********************
+****** BAHADIR *******
+**********************/
+
+.main {
+    background: transparent no-repeat center center absolute;
+    height: 100vh;
+    color: #ffffff;
+    font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    /*
+    background-image: url("tshirt.png");
+    background-size: cover;
+    */
+}
+
+#landing-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    background: transparent no-repeat 0 0;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.logo-main {
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+    height: 40px;
+    width: 300px;
+    display: table;
+    margin: 0 auto;
+    top: 33vh;
+}
+
+.adam {
+    /* ADAM & AOKI: */
+    font-family: Avenir;
+    font-weight: 500;
+    font-size: 32px;
+    color: #111;
+    text-align: center;
+}
+
+.rec {
+    /* Rectangle 2: */
+    border: 2px solid #111;
+    border-radius: 100px;
+    height: 42px;
+}
+
+.slogan1 {
+    position: relative;
+    top: 38vh;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 52px;
+    font-weight: 450;
+    color: #111;
+    display: table;
+    margin: 0 auto;
+}
+
+.slogan2 {
+    position: relative;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 32px;
+    color: #111;
+    top: 43vh;
+    display: table;
+    margin: 0 auto;
+}
+
+.arrow {
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    margin-left:-20px;
+    width: 35px;
+    height: 35px;
+    background-image: url("down.png");
+    background-size: contain;
+}
+
+
+/*********************
+****** BAHADIR *******
+**********************/
+
 footer
 {
     font-family: Raleway;
