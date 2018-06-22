@@ -3,10 +3,10 @@
 /*This makes sure the footer and header fill out the whole top and bottom of screen*/
 html, body
 {
-    margin: 0px;
+    margin: 0;
+    padding: 0;
 }
 
-/* IRRELEVANT FOR NOW*/
 footer
 {
     font-family: Raleway;
@@ -15,23 +15,13 @@ footer
     background: #f5f5f5; /*gray*/
 }
 
-/* IRR FOR NOW*/
+
 footer span
 {
   color: #AAA; 
 }
 
-body {
-    background-image: url("blue.jpg");
-}
-
-html, body {
-    margin: 0;
-    padding: 0;
-}
-
-/* TARA */
-/*irr*/
+/*TARA*/
 ul {
   list-style-type: none;
   padding: 0;
@@ -96,7 +86,7 @@ div.container a.menu-button
     font-size: 20px;
     font-family: Raleway;
     margin: 0px 5px; 
-    padding: 2px 30px; /* how long and far apart the lines are | |*/
+    padding: 2px 30px;
     position: relative;
     z-index: 0;
     cursor: pointer;
@@ -263,5 +253,161 @@ https://images.pexels.com/photos/60342/pexels-photo-60342.jpeg?auto=compress&cs=
     top: 40%;
     display: table;
     margin: 0 auto;
+} 
+/* This is Nanotech part*/
+#AlexPart1{
+	color: white;
+	background-image: url("ImagesA/backgroundTest.jpg");
+	background-size: cover;
+
+	font-size: 1.1em;
+	font-family: "Times New Roman";
+	text-align: justify;
+
+	box-sizing: border-box;
+}
+.row2 {
+    display: flex;
 }
 
+.column2 {
+    flex: 50%;
+    padding-top: 100px;
+    padding-bottom: 130px;
+    padding-right: 80px;
+    padding-left: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.nanoImg{
+  border-radius: 50%;
+  height: 170px;
+  width: 170px;
+  border: 1px solid grey;
+}
+
+.AlexText1{
+	padding: 20px;
+	border-radius: 5px;
+}
+
+#AlexHeader1{
+	background-color: grey;
+	font-family: "Helvetica", sans-serif;
+}
+
+#columnSun{
+	text-align: right;
+}
+
+
+/* This is Review Part*/
+
+#AlexPart2{
+	box-sizing: border-box;
+	background-image: url("ImagesA/revBG6.jpg");
+
+	color:black;
+	font-size: 1.2em;
+	font-family: "Times New Roman";
+	text-align: justify;
+}
+
+.revImg{
+  border-radius: 50%;
+  height: 170px;
+  width: 170px;
+  border: 1px solid lightgrey;
+}
+
+#column2Left{
+    flex: 60%;
+    padding-top: 70px;
+    padding-bottom: 150px; 
+    padding-right:70px;
+    padding-left: 70px;
+}
+
+#column2Right{
+	flex: 40%;
+    padding-top: 80px;
+    padding-bottom: 150px; 
+    padding-right:50px;
+    padding-left: 100px;
+}
+
+#AlexHeader2{
+	background-color: lightblue;
+	font-family: "Lato", "Helvetica", sans-serif;
+}
+
+.AlexText2{
+	padding: 5px;
+	border-radius: 5px;
+}
+
+#slideRev{
+	padding-top: 80px;
+	padding-bottom: 50px;
+	padding-right: 50px;
+	padding-left: 80px;
+}
+
+/* The Back to Top button */
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 300px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+#arrowUp{
+	width:60px;
+	height: 50px;
+}
+
+#embrace-section {
+	background-image: url("https://4.bp.blogspot.com/-yWJ1ihU_S4U/UW_9BLkLNsI/AAAAAAAAFEk/gzgLjxCUSEU/s1600/sunshine.jpg");
+	height: 75vh;
+	padding: 20px;
+	color: white;
+}
+
+.section-head {
+	font-family: "Lato", "Helvetica", sans-serif;
+	text-align: center;
+	font-size: 50px;
+}
+
+.sub-head {
+	font-family: "Lato", "Helvetica", sans-serif;
+	font-size: 30px;
+}
+
+#brand-section {
+	background-image: url("https://images.unsplash.com/photo-1523972426550-23b522ad4f9f");
+	padding-top: 50px;
+	padding-left: 20vw;
+	padding-right: 20vw;
+	padding-bottom: 50px;
+	color: white;
+}
+
+#story-text {
+	padding: 50px;
+	padding-top: 1px;
+	background-color: gray;
+}
