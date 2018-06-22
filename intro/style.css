@@ -22,7 +22,7 @@ https://images.pexels.com/photos/60342/pexels-photo-60342.jpeg?auto=compress&cs=
 
 
 #landing-video {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -99,7 +99,8 @@ p {
     color: #111111;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     background-color: whitesmoke;
-}
+    box-shadow: 0 -4px 50px 0px black;
+ }
 
 
 /*****************************/
@@ -194,10 +195,4 @@ nav.pullRightLeft a.menu-button:hover:before,
     width: 120px
 }
 
-
-
-
 /* !--- TARA'S BIT FINISH ---! */
-
-        
-
