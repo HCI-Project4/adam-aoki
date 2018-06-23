@@ -93,7 +93,7 @@ html, body
     margin-left:-20px;
     width: 35px;
     height: 35px;
-    background-image: url("down3.png");
+    background-image: url("/buttons/down3.png");
     background-size: contain;
 }
 
@@ -397,7 +397,7 @@ div.pullRightLeft a.menu-button:hover:before
 }
 
 #embrace-section {
-	background-image: url("embrace.jpg");
+	background-image: url("images/embrace.jpg");
     background-size: cover;
 	height: 75vh;
 	padding: 20px;
@@ -418,7 +418,7 @@ div.pullRightLeft a.menu-button:hover:before
 }
 
 #brand-section {
-	background-image: url("cloth-back.jpg");
+	background-image: url("images/cloth-back.jpg");
     background-size: cover;
     
 	padding-top: 50px;
