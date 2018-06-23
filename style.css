@@ -1,6 +1,8 @@
 /*@import 'https://fonts.googleapis.com/css?family=Raleway';*/
 
 /*This makes sure the footer and header fill out the whole top and bottom of screen*/
+@charset "UTF-8";
+
 html, body
 {
     margin: 0;
@@ -99,7 +101,7 @@ html, body
 
 
 /*********************
-****** BAHADIR *******
+****** BAHADIR DONE *******
 **********************/
 
 footer
@@ -107,7 +109,7 @@ footer
     font-family: "Halvetica", 'Raleway', sans-serif;
     margin: 0 auto;
     text-align: center;
-    background: #f5f5f5; /*gray*/
+    background: #f5f5f5;
 }
 
 
@@ -116,15 +118,18 @@ footer span
   color: #AAA; 
 }
 
-/*TARA*/
+/*-----TARA'S BIT-----*/
+
 ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-
-
+.gray
+{
+    background: whitesmoke;
+}
 
 div.container
 {
@@ -143,7 +148,7 @@ div.container
 
 div.container a.not-button{
     margin-top: 1em;
-    font-size: 20px;
+    font-size: 15px;
     font-family: "Halvetica", 'Raleway', sans-serif;
     text-decoration: none;
 
@@ -157,25 +162,38 @@ div.container a.not-button{
 }
 
 .arrows:after {
-  content: '>';
+  content: "<<" ;
   position: absolute;
   opacity: 0;  
   top: 9px;
-  right: -20px;
+  right: -40px;
   transition: 0.3s;
 }
 
 .arrows:hover:after {
   opacity: 1;
-  right: 50px;
+  right: 35px;
   top: 9px;
+  animation: bounce 1.5s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateX(0);
+  }
+  40% {
+    transform: translateX(10px);
+  }
+  60% {
+    transform: translateX(5px);
+  }
 }
 
 
 div.container a.menu-button
 {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 15px;
     font-family: "Halvetica", 'Raleway', sans-serif;
     margin: 0px 5px; 
     padding: 2px 30px;
@@ -213,16 +231,10 @@ div.pullRightLeft a.menu-button:hover:before
     width: 100%;
 }
 
-
-.gray
-{
-    background: whitesmoke;
-}
-
 #logo {
     float: left;
-    margin: 0px 2px;
-    padding: 4px 3vw;
+    margin: 0px 0px 100px;
+    padding: 0px 3vw 2px;
     color: #000;
     text-decoration: none;
 }
@@ -230,13 +242,14 @@ div.pullRightLeft a.menu-button:hover:before
 
 #buy {
     float: right;
-    margin: -10px 10px;
+    margin: -10px 10px ;
     padding: 10px 4vw;
     color: #FF6600;
 }
-/*irr*/
+
+
 .rec2 {
-    /* Rectangle 2: */
+    /* DO WE NEED THIS?*/
     border: 1px solid #000;
     border-radius: 100px;
     height: 18px;
@@ -327,7 +340,8 @@ div.pullRightLeft a.menu-button:hover:before
 	font-family: "Ubuntu", sans-serif;
 	text-align: justify;
 
-	box-shadow: 0 -4px 50px 0px black;
+	box-shadow: 0 -4px 50px 0px black, 0 60px 50px 0px whitesmoke;
+  /*Added a second shadow for better transition*/
 }
 
 .revImg{
