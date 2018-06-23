@@ -9,9 +9,9 @@ html, body
     padding: 0;
 }
 
-/*********************
-****** BAHADIR *******
-**********************/
+/***************************
+****** BAHADIR START *******
+****************************/
 
 .main {
     background: transparent no-repeat center center absolute;
@@ -100,9 +100,9 @@ html, body
 }
 
 
-/*********************
-****** BAHADIR DONE *******
-**********************/
+/*************************
+****** BAHADIR END *******
+**************************/
 
 footer
 {
@@ -432,7 +432,7 @@ div.pullRightLeft a.menu-button:hover:before
 }
 
 #brand-section {
-	background-image: url("images/cloth-back.jpg");
+	background-image: url("images/cloth-back.jpg"); /*Cloth image added, B. */
     background-size: cover;
     
 	padding-top: 50px;
@@ -447,6 +447,7 @@ div.pullRightLeft a.menu-button:hover:before
 	padding: 50px;
 	padding-top: 1px;
 	background-color: #222;
-    box-shadow: 8px 8px 50px 8px black;
-    border-radius: 10px;
+    box-shadow: 0px 0px 30px 4px #111;
+    border-radius: 10px; /* Border radius added, B. */
+    border: 1px solid #000000; /*Border added, B. */
 }
