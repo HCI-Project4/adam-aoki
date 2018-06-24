@@ -328,6 +328,10 @@ div.pullRightLeft a.menu-button:hover:before
 	text-align: right;
 }
 
+.TitleN{
+  font-style: italic;
+  font-size: 1.5em;
+}
 
 /* This is Review Part*/
 
