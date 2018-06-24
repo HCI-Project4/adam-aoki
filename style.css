@@ -288,7 +288,7 @@ div.pullRightLeft a.menu-button:hover:before
 /* This is Nanotech part*/
 #AlexPart1{
 	color: white;
-	background-image: url("ImagesA/backgroundTest.jpg");
+	background-image: url("images/backgroundTest.jpg");
 	background-size: cover;
 
 	font-size: 1.1em;
@@ -333,7 +333,7 @@ div.pullRightLeft a.menu-button:hover:before
 
 #AlexPart2{
 	box-sizing: border-box;
-	background-image: url("ImagesA/revBG6.jpg");
+	background-image: url("images/revBG6.jpg");
 
 	color:black;
 	font-size: 1.2em;
