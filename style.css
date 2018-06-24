@@ -95,7 +95,7 @@ html, body
     margin-left:-20px;
     width: 35px;
     height: 35px;
-    background-image: url("/buttons/down3.png");
+    background-image: url("buttons/down.png");
     background-size: contain;
 }
 
