@@ -248,6 +248,7 @@ div.pullRightLeft a.menu-button:hover:before
     float: right;
     margin: -10px 10px ;
     padding: 10px 4vw;
+    bottom: 2px;
     color: #FF6600;
 }
 
