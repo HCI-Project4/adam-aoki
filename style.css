@@ -298,7 +298,7 @@ div.pullRightLeft a.menu-button:hover:before
 /* !--- TARA'S BIT FINISH ---! */
 
 /* This is Nanotech part*/
-#AlexPart1{
+#tech{
 	color: white;
 	background-image: url("images/backgroundTest.jpg");
 	background-size: cover;
@@ -345,7 +345,7 @@ div.pullRightLeft a.menu-button:hover:before
 
 /* This is Review Part*/
 
-#AlexPart2{
+#reviews{
 	box-sizing: border-box;
 	background-image: url("images/revBGN9.jpg");
   background-size: cover;
@@ -447,7 +447,7 @@ div.pullRightLeft a.menu-button:hover:before
 	font-size: 30px;
 }
 
-#brand-section {
+#brand {
 	background-image: url("images/cloth-back.jpg"); /*Cloth image added, B. */
     background-size: cover;
     
