@@ -347,7 +347,8 @@ div.pullRightLeft a.menu-button:hover:before
 
 #AlexPart2{
 	box-sizing: border-box;
-	background-image: url("images/revBG6.jpg");
+	background-image: url("images/revBGN9.jpg");
+  background-size: cover;
 
 	color:black;
 	font-size: 1.2em;
