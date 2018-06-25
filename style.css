@@ -51,7 +51,6 @@ html, body
 .adam {
     /* ADAM & AOKI: */
     font-family: "Helvetica", 'Raleway', sans-serif;
-    font-weight: 600;
     font-size: 32px;
     color: #111111;
     text-align: center;
@@ -71,7 +70,6 @@ html, body
     top: 38vh;
     font-family: "Helvetica", 'Raleway', sans-serif;
     font-size: 52px;
-    font-weight: 600;
     color: #111111;
     display: table;
     margin: 0 auto;
@@ -85,7 +83,6 @@ html, body
     top: 43vh;
     display: table;
     margin: 0 auto;
-    font-weight: 560;
 }
 
 .arrow {
@@ -427,7 +424,6 @@ div.pullRightLeft a.menu-button:hover:before
 	font-family: "Helvetica", 'Raleway', sans-serif;
 	text-align: center;
 	font-size: 50px;
-    font-weight: 600;
 }
 
 .sub-head {
