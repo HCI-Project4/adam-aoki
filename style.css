@@ -244,6 +244,13 @@ div.pullRightLeft a.menu-button:hover:before
     color: #FF6600;
 }
 
+.center{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-left: 25px;
+}
+
 
 .rec2 {
     /* DO WE NEED THIS?*/
