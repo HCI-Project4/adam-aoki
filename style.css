@@ -123,6 +123,13 @@ ul {
   margin: 0;
 }
 
+table{
+  margin-right: auto;
+  margin-left:auto;
+  text-align: center;
+  padding-left: 25px;
+}
+
 .gray
 {
     background: whitesmoke;
@@ -213,7 +220,7 @@ div.pullRightLeft a.menu-button:before
   transform: scaleX(0);
   -webkit-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
-} 
+}
 
 div.pullRightLeft a.menu-button:after
 {
@@ -343,7 +350,7 @@ div.pullRightLeft a.menu-button:hover:before
 
 	color:black;
 	font-size: 1.2em;
-	font-family: "Ubuntu", sans-serif;
+	font-family: "Helvetica", sans-serif;
 	text-align: justify;
 
 	box-shadow: 0 -4px 50px 0px black, 0 60px 50px 0px whitesmoke;
