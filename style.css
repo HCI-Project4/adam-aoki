@@ -315,7 +315,7 @@ div.pullRightLeft a.menu-button:hover:before
 
 .column2 {
     flex: 50%;
-    padding-top: 100px;
+    padding-top: 10px;
     padding-bottom: 130px;
     margin-left: 10vw;
     margin-right: 10vw;
@@ -389,6 +389,7 @@ div.pullRightLeft a.menu-button:hover:before
 .AlexText2{
 	padding: 5px;
 	border-radius: 5px;
+  color: white;
 }
 
 #slideRev{
@@ -436,6 +437,7 @@ div.pullRightLeft a.menu-button:hover:before
 	font-family: "Helvetica", 'Raleway', sans-serif;
 	text-align: center;
 	font-size: 50px;
+  padding-top: 50px;
 }
 
 .sub-head {
