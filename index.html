@@ -43,7 +43,7 @@
   	
 	<!-- Landing Page section -->
 	
-		<div class="main">
+		<div class="main" role="Landing page">
             <video id="landing-video" preload="auto" autoplay muted loop>	<!-- adds background video behind text -->
                 <source src="videos/kid/kid.mp4" type="video/mp4">
                 <source src="videos/kid/kid.webm" type="video/webm">
@@ -84,13 +84,13 @@
 
 	<!-- Embrace the Sun section -->
 	
-		<div id="embrace-section">
+		<div id="embrace-section" role="Help children enjoy the outside">
 			<h1 class="section-head">Embrace the Sun</h1>
 		</div>
 	
 	<!-- Brand Story section -->
 	
-		<div id="brand">
+		<div id="brand" role="About the brand">
 			<div id="story-text">
 				<h1 class="section-head">Brand Story</h1>
 				<h2 class="sub-head"> Our Mission</h2>
@@ -102,7 +102,7 @@
 	
 	<!-- Alex Reviews -->
 
-	<div id="reviews">
+	<div id="reviews" role="reviews">
 		<h1 class="section-head">Reviews</h1>			<!--Reviews is the part of the website that shows the reviews of customers and possibly other personas. Also it has a Twitter feed embedded.-->
 		<div class="row2">
 			<div id="column2Left">
@@ -154,7 +154,7 @@
 					}
 				</script>
 			</div>
-			<div id="column2Right">
+			<div id="column2Right" role="Twitter updates">
 				<a class="twitter-timeline" href="https://twitter.com/NatGeoPhotos?ref_src=twsrc%5Etfw" data-width="400" data-height="450">Tweets by NatGeoPhotos</a> <script async src="https://platform.twitter.com/widgets.js"></script>			<!--Twitter feed (currently set to show the Twitter of NatGeoPhotos just as an example).-->
 			</div>
 		</div>
@@ -179,27 +179,29 @@
 		}
 	</script>
 	<br/>
-	<!-- This is the menu -->
-	<div style="line-height:250%;" class="container gray pullRightLeft b">
-        <a id="logo" href="index.html" style="position:relative; top:-2px;">
+	<!-- This is the menu. The leftmost and rightmost elements are not menu-button classes, even though they are indeed buttons. The menu-button elements are the most important elements in the menu, hence their name, and have different animations and purposes. -->
+	<div style="line-height:250%;" class="container gray pullRightLeft b" role="menu buttons">
+        <a id="logo" role="button" href="index.html" style="position:relative; top:-2px;">
                 <img src="images/logo.png" alt="Adam & Aoki" height="24"/>
 		</a>
 		<strong>
-			<a class="menu-button" href="#tech">TECHNOLOGY</a>
-			<a class="menu-button" href="#brand">BRAND STORY</a>
-			<a class="menu-button" href="#reviews">REVIEWS</a>
-			<a class="menu-button" href="#more-info">MORE INFO</a>
-			<a class="not-button arrows" id="buy" href="https://www.shopify.com/" target="_blank">Shop here</a>
+			<a class="menu-button" role="button" href="#tech">TECHNOLOGY</a>
+			<a class="menu-button" role="button" href="#brand">BRAND STORY</a>
+			<a class="menu-button" role="button"  href="#reviews">REVIEWS</a>
+			<a class="menu-button" role="button" href="#more-info">MORE INFO</a>
+			<a class="not-button arrows" role="button" id="buy" href="https://www.shopify.com/" target="_blank">Shop here</a>
 		</strong>
     </div>
+    <!-- This is the footer. It is divided into 4 columns, where the first one is filled by the logo. The second one is a list without bulletins, the third one is a table for better image-text alignment. The fourth one is the same as the first one, but with multiple images. -->
 		<footer id="more-info">
 			<div class="row">
-				<div class="column">
+				<div class="column" role="main logo">
+					<!-- Two breaklines for easy image alignment -->
 					<br/>
 					<br/>
 					<img src="images/logoft.png" height="115" alt="Adam&Aoki logo" />
 				</div>
-				<div class="column b">
+				<div class="column b" role="more information">
 					<h3>OUR COMPANY</h3>
 					<ul>
 						<li><a href="#" style="text-decoration:none; color:black;">About us</a></li>
@@ -209,7 +211,7 @@
 						<li><a href="#" style="text-decoration:none; color:black;">Contact & location</a></li>
 					</ul>
 				</div>
-				<div class="column">
+				<div class="column" role="social media">
 					<h3>CONNECT WITH US</h3>
 					<table>
 						<tr>
@@ -245,22 +247,25 @@
 							</td>
 						</tr>
 					</table>
-					<!--
-					<ul>
-						<li><a href="#" style="text-decoration:none;"><img src="buttons/fb.png" alt="Facebook icon" width="23" height="23" /> Adam & Aoki</a></li>
-						<li><a href="#" style="text-decoration:none;"><img src="buttons/tw.png" alt="Twitter icon" width="23" height="23" /> Clothing4.0</a></li>
-						<li><a href="#" style="text-decoration:none;"><img src="buttons/ig.png" alt="Hashtag icon" width="23" height="23" /> AdamAoki</a></li>
-						<li><a href="#" style="text-decoration:none;"><img src="buttons/yt.png" alt="Youtube icon" width="23" height="23" /> Clothing4.0</a></li>
-					</ul>
-				-->
 				</div>
-				<div class="column">
+				<div class="column" role="logos">
 					<h3>SPONSORED BY</h3>
-					<img src="images/placeholder_logo.png" alt="placeholder icon" width="70" height="70" /><img src="images/placeholder_logo.png" alt="placeholder icon" width="70" height="70" /><br/>
-					<img src="images/placeholder_logo.png" alt="placeholder icon" width="70" height="70" /><img src="images/placeholder_logo.png" alt="placeholder icon" width="70" height="70" />
+					<img src="images/placeholder_logo.png" alt="placeholder icon" width="70" height="70" />
+					<img src="images/placeholder_logo.png" alt="placeholder icon" width="70" height="70" /><br/>
+					<img src="images/placeholder_logo.png" alt="placeholder icon" width="70" height="70" />
+					<img src="images/placeholder_logo.png" alt="placeholder icon" width="70" height="70" />
 				</div>
 				<p>(C) Fantastic 4. All rights reserved</p>
 			</div>
-		</footer><!-- insert footer here -->
+		</footer>
   </body>
 </html>
+
+
+<!-- 
+	Images and some code from:
+	https://www.w3schools.com/
+	http://tobiasahlin.com/blog/css-trick-animating-link-underlines/
+    https://www.iconfinder.com/social-media-icons?price=free&page=4
+    https://logojoy.com/editor/20110830
+-->
