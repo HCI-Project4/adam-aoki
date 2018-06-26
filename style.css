@@ -348,14 +348,14 @@ div.pullRightLeft a.menu-button:hover:before
 #reviews{
 	box-sizing: border-box;
 	background-image: url("images/revBGN9.jpg");
-  background-size: cover;
+	background-size: cover;
 
 	color:black;
 	font-size: 1.2em;
 	font-family: "Helvetica", sans-serif;
 	text-align: justify;
 
-	box-shadow: 0 -4px 50px 0px black, 0 60px 50px 0px whitesmoke;
+	box-shadow: 0 -4px 50px 0px black, 0 60px 60px 0px whitesmoke;
   /*Added a second shadow for better transition*/
 }
 
@@ -439,7 +439,8 @@ div.pullRightLeft a.menu-button:hover:before
 	font-family: "Helvetica", 'Raleway', sans-serif;
 	text-align: center;
 	font-size: 50px;
-  padding-top: 50px;
+	padding-top: 50px;
+	margin-top: 0px;
 }
 
 .sub-head {
