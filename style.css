@@ -145,6 +145,7 @@ table{
     background: whitesmoke;
 }
 
+/*The menu bar and its buttons*/
 div.container
 {
     position: fixed;
@@ -167,6 +168,8 @@ div.container a.not-button{
     text-decoration: none;
 
 }
+
+/*All animations in menu bar*/
 
 .arrows{
   cursor: pointer;
@@ -245,6 +248,8 @@ div.pullRightLeft a.menu-button:hover:before
     width: 100%;
 }
 
+/*Specific alignment for shop here and logo buttons*/
+
 #logo {
     float: left;
     margin: 0px 0px 100px;
@@ -262,6 +267,7 @@ div.pullRightLeft a.menu-button:hover:before
     color: #FF6600;
 }
 
+/*The footer and its columns*/
 .center{
   margin-left: auto;
   margin-right: auto;
@@ -269,21 +275,6 @@ div.pullRightLeft a.menu-button:hover:before
   padding-left: 25px;
 }
 
-
-.rec2 {
-    /* DO WE NEED THIS?*/
-    border: 1px solid #000;
-    border-radius: 100px;
-    height: 18px;
-    width: 100px;
-    color: orange;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-/* Create four equal columns that floats next to each other */
 .column {
     float: left;
     width: 25%;
@@ -291,7 +282,6 @@ div.pullRightLeft a.menu-button:hover:before
     height: 250px;
 }
 
-/* Clear floats after the columns */
 .row:after {
     content: "";
     display: table;
