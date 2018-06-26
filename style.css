@@ -16,14 +16,15 @@ html, body
 .main {
     background: transparent no-repeat center center absolute;
     height: 100vh;
-    color: #ffffff;
     font-family: "Helvetica", 'Raleway', sans-serif;
+    /*  */
     /*
     background-image: url("tshirt.png");
     background-size: cover;
     */
 }
 
+/* Background video atrributes */
 #landing-video {
     position: absolute;
     top: 0;
@@ -34,9 +35,10 @@ html, body
     background: transparent no-repeat 0 0;
     object-fit: cover;
     z-index: -1;
-    filter: blur(2px)
+    filter: blur(6px); /* Increase visibility*/
 }
 
+/* Keeps logo elemnts inside */
 .logo-main {
     position: relative;
     vertical-align: middle;
@@ -48,6 +50,7 @@ html, body
     top: 33vh;
 }
 
+/* Adam & Aoki text inside the logo rectangle */
 .adam {
     /* ADAM & AOKI: */
     font-family: "Helvetica", 'Raleway', sans-serif;
@@ -55,16 +58,20 @@ html, body
     color: #111111;
     text-align: center;
     height: 40px;
+    /*text-shadow: 0px 0px 10px dimgray;*/
 }
 
+
+/* Logo rectange with curved */
 .rec {
     /* Rectangle 2: */
     border: 2px solid #111;
     border-radius: 100px;
     height: 50px;
-    box-shadow: 
+    /*box-shadow: 0px 0px 10px dimgray;*/
 }
 
+/* Welcome to ... text*/
 .slogan1 {
     position: relative;
     top: 38vh;
@@ -73,16 +80,19 @@ html, body
     color: #111111;
     display: table;
     margin: 0 auto;
+    /* text-shadow: 0px 0px 10px dimgray; */
 }
 
+/*Where functionality ... text*/
 .slogan2 {
     position: relative;
     font-family: "Helvetica", 'Raleway', sans-serif;
     font-size: 32px;
     color: #111;
-    top: 43vh;
+    top: 40vh;
     display: table;
     margin: 0 auto;
+    /*text-shadow: 0px 0px 10px dimgray;*/
 }
 
 .arrow {
