@@ -335,10 +335,19 @@ div.pullRightLeft a.menu-button:hover:before
 }
 
 #columnSun{
-	text-align: right;
+	text-align: center;
 }
 
-.TitleN{
+#columnFabric{
+  text-align: center;
+}
+
+#TitleNL{
+  font-style: italic;
+  font-size: 1.5em;
+}
+
+#TitleNR{
   font-style: italic;
   font-size: 1.5em;
 }
@@ -364,6 +373,7 @@ div.pullRightLeft a.menu-button:hover:before
   height: 170px;
   width: 170px;
   border: 1px solid lightgrey;
+  margin-left: 190px;
 }
 
 #column2Left{
