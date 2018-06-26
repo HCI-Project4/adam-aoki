@@ -58,7 +58,7 @@ html, body
     color: #111111;
     text-align: center;
     height: 40px;
-    /*text-shadow: 0px 0px 10px dimgray;*/
+    /*text-shadow: 0px 0px 10px white;*/
 }
 
 
@@ -68,7 +68,7 @@ html, body
     border: 2px solid #111;
     border-radius: 100px;
     height: 50px;
-    /*box-shadow: 0px 0px 10px dimgray;*/
+    /*box-shadow: 0px 0px 10px white;*/
 }
 
 /* Welcome to ... text*/
@@ -80,7 +80,7 @@ html, body
     color: #111111;
     display: table;
     margin: 0 auto;
-    /* text-shadow: 0px 0px 10px dimgray; */
+    /*text-shadow: 0px 0px 10px white;*/
 }
 
 /*Where functionality ... text*/
@@ -92,7 +92,7 @@ html, body
     top: 40vh;
     display: table;
     margin: 0 auto;
-    /*text-shadow: 0px 0px 10px dimgray;*/
+    text-shadow: 0px 0px 30px white;
 }
 
 .arrow {
@@ -357,7 +357,7 @@ div.pullRightLeft a.menu-button:hover:before
 
 #reviews{
 	box-sizing: border-box;
-	background-image: url("images/revBGN9.jpg");
+    background-image: url("images/revBGN9.jpg");
 	background-size: cover;
 
 	color:black;
